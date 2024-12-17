@@ -1,0 +1,33 @@
+.dashboard-container{
+    display: flex;
+    /* border: black 2px solid; */
+    padding-left: 13px;
+    padding-right: 15px;
+}
+
+.chart-container{
+    /* border: 2px solid blue; */
+    /* height: 350px; */
+    height:70%;
+    /* width: 65%; */
+    /* box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23); */
+    box-shadow: 0 10px 20px rgba(2, 63, 76, 0.979), 0 6px 6px rgba(3, 87, 117, 0.815);
+    background: rgb(249, 252, 180);
+    /* background-color: transparent; */
+    /* background-color: #f0eff3 */
+    /* opacity: .9; */
+}
+
+.recent-transactions-container{
+    background-color: transparent;
+    /* box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23); */
+}
+
+.recent-transaction-card:hover{
+    box-shadow: 0 3px 6px rgb(255, 9, 9), 0 3px 6px rgb(120, 1, 1);
+}
+
+.total-income-expense-balance-container{
+    box-shadow: 0 10px 20px rgb(238, 119, 119), 0 6px 6px rgb(178, 218, 0);
+
+}
